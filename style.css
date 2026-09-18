@@ -1,14 +1,46 @@
-body {
-    font-family: Arial, sans-serif;
-    max-width: 900px;
-    margin: 0 auto;
-    padding: 40px;
-}
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
 
-h1 {
-    font-size: 40px;
-}
+  body {
+    background: #12151c;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    color: #48a74d9c;
+    padding: 60px 40px;
+    text-align: center;
+  }
 
-h2 {
-    font-weight: normal;
-}
+  h1 {
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 2.6rem;
+  letter-spacing: 0.5px;
+  color: #5b8def;
+  margin-bottom: 8px;
+  }
+
+  h2 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 1.15rem;
+    color: #8fa3c7;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    margin-bottom: 22px;
+  }
+
+  p {
+    font-size: 1rem;
+    line-height: 1.7;
+    max-width: 600px;
+    margin: 14px auto;
+    color: #b4b8c2;
+  }
+
+  p:first-of-type {
+    font-weight: 600;
+    color: #5b8def;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+  }
+</style>
